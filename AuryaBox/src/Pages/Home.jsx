@@ -1,5 +1,15 @@
+import Footer from "../Components/Footer";
+import NavBar from "../Components/NavBar";
+
 function Home () {
-    return (<h1>Home</h1>
+    return (
+    <>   
+    <NavBar />
+    <main>
+        <p>HELLO</p>
+    </main>
+    <Footer />
+    </> 
     )
 }
 

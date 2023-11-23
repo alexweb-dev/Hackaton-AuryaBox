@@ -7,7 +7,6 @@ import Donneur from "./Pages/Donneur.jsx";
 import Receveur from "./Pages/Receveur.jsx";
 import PopupDonneur from "./Pages/PopupDonneur.jsx";
 import PopupReceveur from "./Pages/PopupReceveur.jsx";
-import "./index.css";
 
 const router = createBrowserRouter([
   {
