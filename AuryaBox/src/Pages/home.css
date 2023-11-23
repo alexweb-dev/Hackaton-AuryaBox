@@ -1,0 +1,9 @@
+.styleHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputListeNoel {
+  background-image: url(src/Pictures/liste.jpg);
+}
