@@ -1,16 +1,10 @@
-import Footer from "../Components/Footer";
-import NavBar from "../Components/NavBar";
-
-function Home () {
-    return (
-    <>   
-    <NavBar />
-    <main>
-        <p>HELLO</p>
-    </main>
-    <Footer />
-    </> 
-    )
+function Home() {
+  return (
+    <section className="styleHome">
+      <div className="inputListNoel">Offrir</div>
+      <div className="inputListNoel">Recevoir</div>
+    </section>
+  );
 }
 
 export default Home;
