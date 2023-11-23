@@ -2,3 +2,34 @@
     font-size: 2rem;
     font-family: ChristmasStar;
 }
+
+.pageOffrirTitre{
+    display: flex;
+    justify-content: center;
+}
+.allBoxes{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+.theme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 12.5rem;
+    background-color: aquamarine;
+    margin: 1%;
+}
+.theme button{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 5% ;
+    margin-right: 5%;
+}
+.theme img{
+width: 50px;
+height: 50px;
+}
