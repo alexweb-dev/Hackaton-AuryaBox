@@ -4,6 +4,38 @@
   align-items: center;
 }
 
-.inputListeNoel {
-  background-image: url(src/Pictures/liste.jpg);
+.inputListeNoel1 {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 60rem;
+  width: 100%;
+  background-image: url(../Pictures/liste.jpg);
+}
+.inputListeNoel2 {
+  background-size: cover;
+  width: 100%;
+  height: 60rem;
+  background-image: url(../Pictures/liste.jpg);
+}
+
+.Textecss {
+  position: relative;
+  font-size: larger;
+  margin-top: 20rem;
+  text-align: justify;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.buttonHome {
+}
+
+.itemColonne {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.inputListNoel {
+  width: auto;
 }
