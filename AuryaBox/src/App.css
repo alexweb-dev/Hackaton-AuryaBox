@@ -12,3 +12,7 @@
   font-family: 'ChristmasStar';
   src: url('./Font/MerryChristmasStar.ttf');
 }
+
+*{
+  margin: 0.5%;
+}

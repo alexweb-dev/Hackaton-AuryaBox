@@ -2,3 +2,18 @@
     font-size: 2rem;
     font-family: ChristmasStar;
 }
+.allBoxes{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+.theme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 32%;
+    height: 12.5rem;
+    background-color: aquamarine;
+}
