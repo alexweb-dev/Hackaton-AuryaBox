@@ -7,11 +7,10 @@ import {
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import Home from "./Pages/Home.jsx";
-import Donneur from "./Pages/Donneur.jsx";
+import Offrir from "./Pages/Offrir.jsx";
 import Receveur from "./Pages/Receveur.jsx";
 import PopupDonneur from "./Pages/PopupDonneur.jsx";
 import PopupReceveur from "./Pages/PopupReceveur.jsx";
-import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +18,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "", element: <Home /> },
-      { path: "Donneur", element: <Donneur /> },
+      { path: "Offrir", element: <Offrir /> },
       { path: "Receveur", element: <Receveur /> },
       { path: "PopupDonneur", element: <PopupDonneur /> },
       { path: "PopupReceveur", element: <PopupReceveur /> },
