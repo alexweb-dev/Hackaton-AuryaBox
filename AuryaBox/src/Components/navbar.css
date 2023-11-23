@@ -19,8 +19,9 @@ nav.first {
   width: 100%;
   text-align: center;
   color: beige;
+  font-family: "ChristmasHarrigton";
   text-shadow: 2px 2px #ef5236 ;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 43px;
 }
 
