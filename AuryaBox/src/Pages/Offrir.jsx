@@ -1,5 +1,27 @@
+import { useState } from "react";
 import "./Offrir.css";
+
 function Offrir() {
+  const [count, setCount] = useState(0);
+//   const [countJouet, setcountJouet] = useState(0);
+//   const [countMultimédia, setcountMultimédia] = useState(0);
+//   const [countLivre, setcountLivre] = useState(0);
+//   const [countNourriture, setcountNourriture] = useState(0);
+//   const [countVoyage, setcountVoyage] = useState(0);
+//   const [countCosmétique, setcountCosmétique] = useState(0);
+//   const [countSport, setcountSport] = useState(0);
+//   const [countJeudDeSociété, setcountJeuDeSociété] = useState(0);
+
+  
+  const incrementCount = () => {
+    setCount(count + 1);
+  };
+
+  const decrementCount = () => {
+    setCount(count - 1);
+  };
+  console.log(count);
+
   return (
     <div className="pageOffrir">
       <div className="pageOffrirTitre">
@@ -7,49 +29,49 @@ function Offrir() {
       </div>
       <div className="allBoxes">
         <div className="themeUn theme">
-          <button>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Jouet</p>
-          <button>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeDeux theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Multimedia</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeTrois theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Livre</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeQuatre theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Nourriture</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeCinq theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Voyage</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeSix theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Cosmétique</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeSept theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Sport</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeHuit theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Jeu de Société</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
         <div className="themeNeuf theme">
-          <button>-</button>
+          <button onClick ={decrementCount}>-</button>
           <p>Divers</p>
-          <button>+</button>
+          <button onClick ={incrementCount}>+</button>
         </div>
       </div>
     </div>
