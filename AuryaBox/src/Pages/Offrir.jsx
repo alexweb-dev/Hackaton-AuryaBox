@@ -3,24 +3,35 @@ import "./Offrir.css";
 
 function Offrir() {
   const [count, setCount] = useState(0);
-//   const [countJouet, setcountJouet] = useState(0);
-//   const [countMultimédia, setcountMultimédia] = useState(0);
-//   const [countLivre, setcountLivre] = useState(0);
-//   const [countNourriture, setcountNourriture] = useState(0);
-//   const [countVoyage, setcountVoyage] = useState(0);
-//   const [countCosmétique, setcountCosmétique] = useState(0);
-//   const [countSport, setcountSport] = useState(0);
-//   const [countJeudDeSociété, setcountJeuDeSociété] = useState(0);
+  const [nbBoite, setNbBoite] = useState(0);
+  //   const [countJouet, setcountJouet] = useState(0);
+  //   const [countMultimédia, setcountMultimédia] = useState(0);
+  //   const [countLivre, setcountLivre] = useState(0);
+  //   const [countNourriture, setcountNourriture] = useState(0);
+  //   const [countVoyage, setcountVoyage] = useState(0);
+  //   const [countCosmétique, setcountCosmétique] = useState(0);
+  //   const [countSport, setcountSport] = useState(0);
+  //   const [countJeudDeSociété, setcountJeuDeSociété] = useState(0);
 
-  
   const incrementCount = () => {
     setCount(count + 1);
   };
 
   const decrementCount = () => {
-    setCount(count - 1);
+    if (count > 0) {
+      setCount(count - 1);
+    }
   };
+
   console.log(count);
+
+  if (count % 5 == 0) {
+    setNbBoite(nbBoite + 1);
+  } else if (count % 5 == 4) {
+    setNbBoite(nbBoite - 1);
+  }
+
+  console.log(nbBoite);
 
   return (
     <div className="pageOffrir">
@@ -34,44 +45,44 @@ function Offrir() {
           <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeDeux theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Multimedia</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeTrois theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Livre</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeQuatre theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Nourriture</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeCinq theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Voyage</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeSix theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Cosmétique</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeSept theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Sport</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeHuit theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Jeu de Société</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
         <div className="themeNeuf theme">
-          <button onClick ={decrementCount}>-</button>
+          <button onClick={decrementCount}>-</button>
           <p>Divers</p>
-          <button onClick ={incrementCount}>+</button>
+          <button onClick={incrementCount}>+</button>
         </div>
       </div>
     </div>
