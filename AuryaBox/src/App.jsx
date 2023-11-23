@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes,Route } from "react-router-dom";
+import { Routes,Route, Navigate } from "react-router-dom";
 import Home from "./Pages/Home"
 import Donneur from "./Pages/Donneur"
 import Receveur from "./Pages/Receveur"
@@ -15,6 +15,7 @@ function App() {
         <Route path="/Receveur" element={< Receveur/>} />
         <Route path="/PopupDonneur" element={<PopupDonneur />} />
         <Route path="/PopupReceveur" element={<PopupReceveur />} />
+        <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </>
   );
