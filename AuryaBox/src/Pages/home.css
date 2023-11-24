@@ -24,11 +24,13 @@
 
 .Textecss {
   position: relative;
-  font-size: larger;
+  font-size: large;
+  font-weight: bold;
   margin-top: 20rem;
   text-align: justify;
   padding-left: 10rem;
   padding-right: 10rem;
+  font-family: "Encode Sans Expanded";
 }
 .bouttonHome {
   background-color: white;
