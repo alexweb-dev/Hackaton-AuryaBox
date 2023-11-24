@@ -1,5 +1,4 @@
 @font-face {
-<<<<<<< HEAD
   font-family: "ChristmasTitle";
   src: url("./Font/MerryChristmasFlake.ttf");
 }
@@ -13,18 +12,3 @@
   font-family: "ChristmasStar";
   src: url("./Font/MerryChristmasStar.ttf");
 }
-=======
-  font-family: 'ChristmasTitle';
-  src: url('./Font/MerryChristmasFlake.ttf');
-}
-
-@font-face {
-  font-family: 'ChristmasHarrigton';
-  src: url('./Font/HARRINGT.TTF');
-}
-
-@font-face {
-  font-family: 'ChristmasStar';
-  src: url('./Font/MerryChristmasStar.ttf');
-}
->>>>>>> 1c4573819d9360d12a6a0f170e923487d0a66729

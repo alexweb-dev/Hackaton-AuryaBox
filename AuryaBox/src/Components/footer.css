@@ -5,4 +5,8 @@ div.footer {
   height: 100px;
   align-items: center;
   padding-top:1px;
+  font-family: "ChristmasHarrigton";
+  color: beige;
+  text-shadow: 2px 2px #ef5236;
+  font-size: 25px;
 }

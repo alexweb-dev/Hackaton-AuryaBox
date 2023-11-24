@@ -30,7 +30,10 @@
   text-align: justify;
   padding-left: 10rem;
   padding-right: 10rem;
-  font-family: "Encode Sans Expanded";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 37px;
+  font-weight: bold;
+
 }
 .bouttonHome {
   background-color: white;
