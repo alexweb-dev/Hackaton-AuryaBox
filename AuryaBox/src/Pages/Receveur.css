@@ -1,0 +1,46 @@
+
+.swapp{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(src/Pictures/cadre.avif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel{ 
+    display: flex;
+    padding-top: 2rem;
+
+}
+.cadeaux{ 
+    padding-top: 2.4rem;
+    margin-top: 2.3rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+
+.precedent{ 
+    width: 20rem;
+    height: 10rem;
+}
+
+.suivant{ 
+    width: 20rem;
+    height: 10rem;
+}
+
+button {
+    background-color: #0081b000;
+    border-style: none;
+}
+
