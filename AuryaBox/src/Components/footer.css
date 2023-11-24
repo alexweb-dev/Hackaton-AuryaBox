@@ -1,12 +1,21 @@
 div.footer {
+  display: flex;
+  align-items:center;
+  justify-content: center;
   background-color: #13521f;
   text-align: center;
   color: beige;
-  height: 100px;
+  height: 70px;
   align-items: center;
   padding-top:1px;
-  font-family: "ChristmasHarrigton";
+  /* font-family: "ChristmasHarrigton"; */
   color: beige;
   text-shadow: 2px 2px #ef5236;
   font-size: 25px;
+
+}
+
+#copyright {
+  position: absolute;
+  text-align: center;
 }

@@ -3,14 +3,14 @@ nav.first {
   margin: auto;
   padding: auto;
   display: flex;
-  height: 190px;
+  height: 160px;
   width: 100%;
   color: beige;
 }
 
 #logo {
   width: 250px;
-  height: 190px;
+  height: 160px;
 }
 
 #navbar {
