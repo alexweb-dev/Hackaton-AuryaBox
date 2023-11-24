@@ -28,7 +28,7 @@ function Home() {
             <button
               className="bouttonHome"
               type="button"
-              onClick={() => navigate("/Receveur")}
+              onClick={() => navigate("/Offrir")}
             >
               Au pied du sapin
             </button>
@@ -52,7 +52,7 @@ function Home() {
             <button
               className="bouttonHome"
               type="button"
-              onClick={() => navigate("/Offrir")}
+              onClick={() => navigate("/Receveur")}
             >
               La Fabrique
             </button>
