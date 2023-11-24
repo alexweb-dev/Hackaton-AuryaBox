@@ -39,7 +39,17 @@
     height: 10rem;
 }
 
-button {
+.buttonreceveursuivant {
+    background-color: #0081b000;
+    border-style: none;
+}
+
+.buttonreceveurprecedent {
+    background-color: #0081b000;
+    border-style: none;
+}
+
+.buttoncadeaux {
     background-color: #0081b000;
     border-style: none;
 }
