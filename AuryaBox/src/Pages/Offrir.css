@@ -1,13 +1,10 @@
 .pageOffrirTitre {
   font-size: 2rem;
   font-family: ChristmasStar;
-}
-
-x.pageOffrirTitre {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
 .allBoxes {
   display: flex;
   flex-direction: row;
