@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import useBox from "../context/BoxContext";
 import Jouet from "../Pictures/jouets.png";
 import Multimedia from "../Pictures/multimedia-interactif.png";
 import Livre from "../Pictures/livre.png";
@@ -14,6 +15,19 @@ function Offrir() {
   const [count, setCount] = useState(0);
   const [nbBoite, setNbBoite] = useState(0);
   const prevCountRef = useRef();
+  const {
+    setObject,
+    setBoite,
+    setVetement,
+    setJouet,
+    setMultimedia,
+    setLivre,
+    setNourriture,
+    setVoyage,
+    setCosmetic,
+    setSport,
+    setDivers,
+  } = useBox();
   const [countVetement, setCountVetement] = useState(0);
   const [countJouet, setCountJouet] = useState(0);
   const [countMultimédia, setCountMultimédia] = useState(0);
@@ -23,6 +37,17 @@ function Offrir() {
   const [countCosmétique, setCountCosmétique] = useState(0);
   const [countSport, setCountSport] = useState(0);
   const [countDivers, setcountDivers] = useState(0);
+  setObject(count);
+  setBoite(nbBoite);
+  setVetement(countVetement);
+  setJouet(countJouet);
+  setMultimedia(countMultimédia);
+  setLivre(countLivre);
+  setNourriture(countNourriture);
+  setVoyage(countVoyage);
+  setCosmetic(countCosmétique);
+  setSport(countSport);
+  setDivers(countDivers);
   // const incrementCount = () => {
   //   setCount(count + 1);
   // };
@@ -44,7 +69,7 @@ function Offrir() {
         setNbBoite(nbBoite + 1);
       }
     }
-  }, [count]);
+  }, [count, nbBoite]);
   console.log(count, nbBoite);
 
   // Pour Vêtement
@@ -163,7 +188,17 @@ function Offrir() {
       setCount(count - 1);
     }
   };
-  console.log(countVetement,countJouet,countMultimédia,countLivre,countNourriture,countVoyage,countCosmétique,countSport,countDivers)
+  console.log(
+    countVetement,
+    countJouet,
+    countMultimédia,
+    countLivre,
+    countNourriture,
+    countVoyage,
+    countCosmétique,
+    countSport,
+    countDivers
+  );
   return (
     <div className="pageOffrir">
       <div className="pageOffrirTitre">
