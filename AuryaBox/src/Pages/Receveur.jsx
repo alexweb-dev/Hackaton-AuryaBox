@@ -5,6 +5,8 @@ import c2 from "../Pictures/c2.png";
 import c3 from "../Pictures/c3.png";
 import precedent from "../Pictures/precedent.png"
 import suivant from "../Pictures/suivant.png"
+import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
 
 
 function Receveur() {
@@ -21,7 +23,8 @@ function Receveur() {
     );
   };
 
-  return (
+  return (<>
+    <NavBar />
     <div className="swapp">
     <div className="carousel">
       <button onClick={prevSlide}><img src={precedent} alt="" className="precedent" type="button"/></button>
@@ -29,6 +32,8 @@ function Receveur() {
       <button onClick={nextSlide}><img src={suivant} alt="" className="suivant"/></button>
      </div>
     </div>
+    <Footer />
+    </>
   );
 }
 

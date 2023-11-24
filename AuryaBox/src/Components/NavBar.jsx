@@ -7,7 +7,7 @@ function NavBar() {
     <nav className="first">
       <img
         id="logo"
-        src="src\Pictures\box (3).png"
+        src="src\Pictures\AUrya (2).png"
         alt=""
         onClick={() => navigate("/")}
       />
