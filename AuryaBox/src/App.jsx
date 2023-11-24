@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import "./App.css";
 
+=======
+>>>>>>> 1ba9ae2faffbd3da0fee43d6c50fec46126bcf4f
 import { Routes, Route, Navigate } from "react-router-dom";
 import { BoxProvider } from "./context/BoxContext"
 import Home from "./Pages/Home";
