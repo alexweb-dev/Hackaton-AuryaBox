@@ -28,6 +28,7 @@
     height: 3rem;
     margin-left: 5% ;
     margin-right: 5%;
+    border: 2px solid black;
 }
 .theme img{
 width: 50px;
