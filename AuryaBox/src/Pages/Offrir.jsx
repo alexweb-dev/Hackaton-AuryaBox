@@ -199,11 +199,28 @@ function Offrir() {
     countSport,
     countDivers
   );
+  function article() {
+    if (count === 1 || count === 0) {
+      return <p>Vous avez donné : {count} article, </p>;
+    } else {
+      return <p>Vous avez donné : {count} articles, </p>;
+    }
+  }
+  function boite() {
+    if (nbBoite === 1 || nbBoite === 0) {
+      return <p> pour un total de {nbBoite} boîte</p>;
+    } else {
+      return <p> pour un total de {nbBoite} boîtes</p>;
+    }
+  }
   return (
     <div className="pageOffrir">
       <div className="pageOffrirTitre">
         <h1>Offrir</h1>
       </div>
+      <div className="panier">
+      {article()} {boite()}
+    </div>
       <div className="allBoxes">
         <div className="themeUn theme">
           <button onClick={decrementCountVetement}>-</button>
