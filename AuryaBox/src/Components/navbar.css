@@ -3,21 +3,21 @@ nav.first {
   margin: auto;
   padding: auto;
   display: flex;
-  height: 190px;
+  height: 160px;
   width: 100%;
   color: beige;
 }
 
 #logo {
   width: 250px;
-  height: 190px;
+  height: 160px;
 }
 
 #navbar {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  font-family: "ChristmasHarrigton";
+  font-family: Arial, Helvetica, sans-serif
   text-align: center;
   color: beige;
   text-shadow: 2px 2px #ef5236;
@@ -40,7 +40,7 @@ div.button {
   color: black;
   font-weight: bold;
   margin-bottom: 14px;
-  font-family:"ChristmasHarrigton" ;
+  font-family:Arial, Helvetica, sans-serif ;
   font-size: 20px;
 
 }
@@ -51,7 +51,7 @@ div.button {
   width: 150px;
   color: black;
   font-weight: bold;
-  font-family: "ChristmasHarrigton";
+  font-family:Arial, Helvetica, sans-serif ;
   font-size: 20px;
  
 }

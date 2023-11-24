@@ -58,6 +58,7 @@
   width: 99%;
   height: 150px;
   text-align: center;
+  margin-bottom: 15px;
 }
 #bouttonLaFabrique {
   background-image: url(../Pictures/donneur.png);
@@ -69,6 +70,7 @@
   width: 99%;
   height: 150px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .itemColonne {
