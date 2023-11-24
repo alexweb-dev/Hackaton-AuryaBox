@@ -120,3 +120,7 @@
 .pageOffrir button:hover{
   background-color: aquamarine;
 }
+
+.react-responsive-modal-modal {
+  background: white !important;
+}
