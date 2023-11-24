@@ -3,6 +3,7 @@ import NavBar from "../Components/NavBar.jsx";
 import Footer from "../Components/Footer.jsx";
 import "./home.css";
 
+
 function Home() {
   const navigate = useNavigate();
   return (
