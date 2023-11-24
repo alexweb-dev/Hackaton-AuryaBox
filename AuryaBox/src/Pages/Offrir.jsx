@@ -203,21 +203,31 @@ function Offrir() {
     if ((count === 1 || count === 0) && nbBoite === 1) {
       return (
         <p>
-          Vous avez donné : {count} Article, pour un total de {nbBoite} Boîte. Merci Beaucoup !
+          Vous avez donné : {count} Article, pour un total de {nbBoite} Boîte.
+          Merci Beaucoup !
         </p>
       );
     } else if ((count === 1 || count === 0) && nbBoite >= 2) {
       return (
         <p>
-          Vous avez donné : {count} Article, pour un total de {nbBoite} Boîtes. Merci Beaucoup ! 
+          Vous avez donné : {count} Article, pour un total de {nbBoite} Boîtes.
+          Merci Beaucoup !
         </p>
       );
-    } 
-    else if (count >= 2 && nbBoite === 1) {
-      return <p>Vous avez donné : {count} Articles, pour un total de {nbBoite} Boîte. Merci Beaucoup !</p>;
-    }
-    else if (count >= 2 && nbBoite >= 2) {
-      return <p>Vous avez donné : {count} Articles, pour un total de {nbBoite} Boîtes. Merci Beaucoup !</p>;
+    } else if (count >= 2 && nbBoite === 1) {
+      return (
+        <p>
+          Vous avez donné : {count} Articles, pour un total de {nbBoite} Boîte.
+          Merci Beaucoup !
+        </p>
+      );
+    } else if (count >= 2 && nbBoite >= 2) {
+      return (
+        <p>
+          Vous avez donné : {count} Articles, pour un total de {nbBoite} Boîtes.
+          Merci Beaucoup !
+        </p>
+      );
     }
   }
 
@@ -226,15 +236,14 @@ function Offrir() {
       <div className="pageOffrirTitre">
         <h1>Offrir</h1>
       </div>
-      <div className="panier">
-        {panier()}
-      </div>
+      <div className="panier">{panier()}</div>
       <div className="allBoxes">
         <div className="themeUn theme">
           <button onClick={decrementCountVetement}>-</button>
           <img src={Vetement} alt="Vêtements" />
           <button onClick={incrementCountVetement}>+</button>
         </div>
+        
         <div className="themeDeux theme">
           <button onClick={decrementCountJouet}>-</button>
           <img src={Jouet} alt="Jouet" />

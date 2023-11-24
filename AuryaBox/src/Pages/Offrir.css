@@ -1,41 +1,56 @@
-.pageOffrirTitre{
-    font-size: 2rem;
-    font-family: ChristmasStar;
+.pageOffrirTitre {
+  font-size: 2rem;
+  font-family: ChristmasStar;
 }
 
-.pageOffrirTitre{
-    display: flex;
-    justify-content: center;
+.pageOffrirTitre {
+  display: flex;
+  justify-content: center;
 }
-.allBoxes{
-    display: flex;
-    flex-direction: row;
+.allBoxes {
+  display: flex;
+  flex-direction: row;
 
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.theme{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
-    height: 12.5rem;
-    background-color: aquamarine;
-    margin: 1%;
+.theme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 12.5rem;
+  background-color: aquamarine;
+  margin: 1%;
+  border-radius: 10%;
 }
-.theme button{
-    width: 3rem;
-    height: 3rem;
-    margin-left: 5% ;
-    margin-right: 5%;
-    border: 2px solid black;
+.theme button {
+  display: inline-block;
+  padding: 2rem 2rem;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
-.theme img{
-width: 50px;
-height: 50px;
+.theme .button:hover {background-color: #3e8e41}
+
+.theme .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.theme img {
+  width: 50px;
+  height: 50px;
 }
 .panier {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
