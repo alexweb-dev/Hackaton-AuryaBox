@@ -6,9 +6,6 @@
 }
 .pageOffrirTitre {
   font-size: 2rem;
-<<<<<<< HEAD
-  font-family: ChristmasStar;
-=======
   font-family: ChristmasHarrigton;
   height: 8rem;
   color: white;
@@ -30,7 +27,6 @@
 }
 
 .pageOffrirTitre {
->>>>>>> 1c4573819d9360d12a6a0f170e923487d0a66729
   display: flex;
   justify-content: center;
 }
@@ -121,6 +117,6 @@
   margin-left: 10px;
 }
 
-.pageOffrir button:hover{
+.pageOffrir button:hover {
   background-color: aquamarine;
 }

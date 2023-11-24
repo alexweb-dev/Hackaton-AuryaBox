@@ -46,7 +46,7 @@
 }
 
 #bouttonLesCadeaux {
-  background-image: url(../Pictures/mur-noel-hiver-confortable-neige-pommes-pin-decoratives-mur-colore-flou.jpg);
+  background-image: url(../Pictures/donneur.png);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@
   text-align: center;
 }
 #bouttonLaFabrique {
-  background-image: url(../Pictures/donneur.png);
+  background-image: url(../Pictures/mur-noel-hiver-confortable-neige-pommes-pin-decoratives-mur-colore-flou.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
