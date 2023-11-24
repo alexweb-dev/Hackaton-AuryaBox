@@ -244,7 +244,7 @@ function Offrir() {
       <NavBar />
       <div className="pageOffrir">
         <div className="pageOffrirTitre">
-          <h1>Que Souhaites Tu Offrir ?</h1>
+          <h1 className="quOffrir">Que Souhaites Tu Offrir ?</h1>
         </div>
         <div className="allBoxes">
           <div className="themeUn theme">

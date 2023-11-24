@@ -5,11 +5,20 @@
   background-image: url(../Pictures/backgroundOffrir.jpg);
 }
 .pageOffrirTitre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
   font-family: ChristmasHarrigton;
   height: 8rem;
   color: white;
   background-color: #04aa6d;
+  position: relative;
+}
+.quOffrir{
+  margin: 0;
+  padding: 0;
+  font-size: 4.5rem;
 }
 .panier {
   margin-top: 1.5rem;
