@@ -11,6 +11,13 @@
   padding: 0;
 }
 
+
+.react-responsive-modal-modal {
+  background: white !important;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
 .textLoginReceveur {
   position: relative;
   bottom: 37rem;
@@ -37,13 +44,11 @@ h1 {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  background-color: darkblue;
+  background-color: rgb(6, 6, 77);
   font-family: MountainofChristmas;
   position: relative;
   height: 30rem;
   width: 50rem;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 30px;
 }
 
 .Snowflake {
@@ -54,7 +59,7 @@ h1 {
   font-size: 120px;
   margin: 0;
   padding: 0;
-  animation: fall 6s linear infinite;
+  animation: fall 10s linear infinite;
 }
 
 @keyframes fall {

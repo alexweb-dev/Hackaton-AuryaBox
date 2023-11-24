@@ -359,7 +359,7 @@ function Offrir() {
           </div>
           <div className="panier">{panier()}</div>
           <button className="confirmer" onClick={onOpenModal}>Donner </button>
-          <Modal open={display1} onClose={onCloseModal} center>
+          <Modal open={display1} onClose={onCloseModal} center  >
         <PopupDonneur />
       </Modal>
         </div>

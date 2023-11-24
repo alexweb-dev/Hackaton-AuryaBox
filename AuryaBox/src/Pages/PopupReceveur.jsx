@@ -1,15 +1,13 @@
 import "./popupReceveur.css";
 import Snow from "./Snow";
-
-function PopupReceveur() {
-
-  
+import C1 from "../Pictures/c1.png"
+  function PopupReceveur (){
   return (
     <main className="snow">
         <Snow>
           <center className="imageCadeau">
             <img
-              src="src/Pictures/gift-304239_1920.png"
+              src= {C1}
               alt="Box Receveur"
               className="boxReceveur"
             ></img>
