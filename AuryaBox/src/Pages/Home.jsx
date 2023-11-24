@@ -14,7 +14,7 @@ function Home() {
             <p className="Textecss">
               Offrir : <br></br>
               <br></br>Remplir une boite type boite a chaussures 5 objets max
-              1kilos par objets) le principe c'est qu'il faut que sa rentre
+              1kilos par objets le principe c'est qu'il faut que sa rentre
               dedans, le nombre les gouts et les couleurs sont a votre
               convenance l'important et d'offrir et donner un sourir ce qui n'a
               pas de prix. il faut que les produits sois en très bonne état ou
