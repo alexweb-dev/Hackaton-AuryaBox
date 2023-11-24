@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'ChristmasTitle';
-  src: url('./Font/MerryChristmasFlake.ttf');
+  font-family: "ChristmasTitle";
+  src: url("./Font/MerryChristmasFlake.ttf");
 }
 
 @font-face {
-  font-family: 'ChristmasHarrigton';
-  src: url('./Font/HARRINGT.TTF');
+  font-family: "ChristmasHarrigton";
+  src: url("./Font/HARRINGT.TTF");
 }
 
 @font-face {
-  font-family: 'ChristmasStar';
-  src: url('./Font/MerryChristmasStar.ttf');
+  font-family: "ChristmasStar";
+  src: url("./Font/MerryChristmasStar.ttf");
 }

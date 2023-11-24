@@ -5,11 +5,14 @@ import Offrir from "./Pages/Offrir"
 import Receveur from "./Pages/Receveur"
 import PopupDonneur from "./Pages/PopupDonneur"
 import PopupReceveur from "./Pages/PopupReceveur"
+import { BoxProvider } from "./context/BoxContext"
+
 
 
 function App() {
   return (
     <>
+      <BoxProvider>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Offrir" element={<Offrir />} />
@@ -18,6 +21,7 @@ function App() {
         <Route path="/PopupReceveur" element={<PopupReceveur />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
+      </BoxProvider>
     </>
   );
 }
