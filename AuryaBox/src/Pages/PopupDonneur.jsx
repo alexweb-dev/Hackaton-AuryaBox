@@ -3,23 +3,17 @@ function PopupDonneur() {
   return (
     <main>
       <form className="formContainerDonneur">
-        <div className="imageCadeauDonneur">
+        <center className="imageCadeauDonneur">
           <img
-            src="src/Pictures/gift-304239_1920.png"
+            src="src/Pictures/c1.png"
             alt="Box Donneur"
             className="boxDonneur"
           ></img>
-          <a href="">
-            <img
-              src="src/Pictures/cadeauValid.png"
-              alt="Cadeau Valid"
-              className="cadeauValid"
-            ></img>
-          </a>
-        </div>
+        </center>
 
         <p className="textLoginDonneur">
-          &#34; Merci pour  votre participation et <br></br>votre  don  et  inestimable&#34;
+          &#34; Merci pour votre participation et <br></br>votre don et
+          inestimable&#34;
         </p>
       </form>
     </main>
