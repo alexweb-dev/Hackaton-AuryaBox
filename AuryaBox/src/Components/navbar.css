@@ -48,3 +48,7 @@ div.button {
   color: black;
   font-weight: bold;
 }
+
+nav .button button:hover{
+background-color: chartreuse;
+}

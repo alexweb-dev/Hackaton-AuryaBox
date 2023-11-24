@@ -196,29 +196,37 @@ function Offrir() {
     if ((count === 1 || count === 0) && nbBoite === 1) {
       return (
         <p>
-          Vous avez donné : <span className="count">{count}</span> Article, pour un total de <span className="nbBoite">{nbBoite}</span> Boîte.
-          <br />Merci Beaucoup !
+          Vous avez donné : <span className="count">{count}</span> Article, pour
+          un total de <span className="nbBoite">{nbBoite}</span> Boîte.
+          <br />
+          Merci Beaucoup !
         </p>
       );
     } else if ((count === 1 || count === 0) && nbBoite >= 2) {
       return (
         <p>
-          Vous avez donné : <span className="count">{count}</span> Article, pour un total de <span className="nbBoite">{nbBoite}</span> Boîtes.
-          <br />Merci Beaucoup !
+          Vous avez donné : <span className="count">{count}</span> Article, pour
+          un total de <span className="nbBoite">{nbBoite}</span> Boîtes.
+          <br />
+          Merci Beaucoup !
         </p>
       );
     } else if (count >= 2 && nbBoite === 1) {
       return (
         <p>
-          Vous avez donné : <span className="count">{count}</span> Articles, pour un total de <span className="nbBoite">{nbBoite}</span> Boîte.
-          <br />Merci Beaucoup !
+          Vous avez donné : <span className="count">{count}</span> Articles,
+          pour un total de <span className="nbBoite">{nbBoite}</span> Boîte.
+          <br />
+          Merci Beaucoup !
         </p>
       );
     } else if (count >= 2 && nbBoite >= 2) {
       return (
         <p>
-          Vous avez donné : <span className="count">{count}</span> Articles, pour un total de <span className="nbBoite">{nbBoite}</span> Boîtes.
-          <br />Merci Beaucoup !
+          Vous avez donné : <span className="count">{count}</span> Articles,
+          pour un total de <span className="nbBoite">{nbBoite}</span> Boîtes.
+          <br />
+          Merci Beaucoup !
         </p>
       );
     }
@@ -233,62 +241,117 @@ function Offrir() {
         </div>
         <div className="allBoxes">
           <div className="themeUn theme">
-            <button onClick={decrementCountVetement} className="minus">-</button>
-            
-            <div className="themeAndCount"><img src={Vetement} alt="Vêtements" />
-            {countVetement}</div>
-            <button onClick={incrementCountVetement} className="add">+</button>
+            <button onClick={decrementCountVetement} className="minus">
+              -
+            </button>
+
+            <div className="themeAndCount">
+              <img src={Vetement} alt="Vêtements" />
+              {countVetement}
+            </div>
+            <button onClick={incrementCountVetement} className="add">
+              +
+            </button>
           </div>
 
           <div className="themeDeux theme">
-            <button onClick={decrementCountJouet} className="minus">-</button>
-            <div className="themeAndCount"><img src={Jouet} alt="Jouet" />
-            {countJouet}</div>
-            <button onClick={incrementCountJouet} className="add">+</button>
+            <button onClick={decrementCountJouet} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Jouet} alt="Jouet" />
+              {countJouet}
+            </div>
+            <button onClick={incrementCountJouet} className="add">
+              +
+            </button>
           </div>
           <div className="themeTrois theme">
-            <button onClick={decrementCountMultimedia} className="minus">-</button>
-            <div className="themeAndCount"><img src={Multimedia} alt="Multimedia" />
-            {countMultimédia}</div>
-            <button onClick={incrementCountMultimedia} className="add">+</button>
+            <button onClick={decrementCountMultimedia} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Multimedia} alt="Multimedia" />
+              {countMultimédia}
+            </div>
+            <button onClick={incrementCountMultimedia} className="add">
+              +
+            </button>
           </div>
           <div className="themeQuatre theme">
-            <button onClick={decrementCountLivre} className="minus">-</button>
-            <div className="themeAndCount"><img src={Livre} alt="Livre" />
-            {countNourriture}</div>
-            <button onClick={incrementCountLivre} className="add">+</button>
+            <button onClick={decrementCountLivre} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Livre} alt="Livre" />
+              {countLivre}
+            </div>
+            <button onClick={incrementCountLivre} className="add">
+              +
+            </button>
           </div>
           <div className="themeCinq theme">
-            <button onClick={decrementCountNourriture} className="minus">-</button>
-            <div className="themeAndCount"><img src={Nourriture} alt="Nourriture" />
-            {countNourriture}</div>
-            <button onClick={incrementCountNourriture} className="add">+</button>
+            <button onClick={decrementCountNourriture} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Nourriture} alt="Nourriture" />
+              {countNourriture}
+            </div>
+            <button onClick={incrementCountNourriture} className="add">
+              +
+            </button>
           </div>
           <div className="themeSix theme">
-            <button onClick={decrementCountVoyage} className="minus">-</button>
-            <div className="themeAndCount"><img src={Voyage} alt="Voyage" />
-            {countVoyage}</div>
-            <button onClick={incrementCountVoyage} className="add">+</button>
+            <button onClick={decrementCountVoyage} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Voyage} alt="Voyage" />
+              {countVoyage}
+            </div>
+            <button onClick={incrementCountVoyage} className="add">
+              +
+            </button>
           </div>
           <div className="themeSept theme">
-            <button onClick={decrementCountCosmétique} className="minus">-</button>
-            <div className="themeAndCount"><img src={Cosmétique} alt="Cosmétique" />
-            {countCosmétique}</div>
-            <button onClick={incrementCountCosmétique} className="add">+</button>
+            <button onClick={decrementCountCosmétique} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Cosmétique} alt="Cosmétique" />
+              {countCosmétique}
+            </div>
+            <button onClick={incrementCountCosmétique} className="add">
+              +
+            </button>
           </div>
           <div className="themeHuit theme">
-            <button onClick={decrementCountSport} className="minus">-</button>
-            <div className="themeAndCount"><img src={Sport} alt="Sport" />
-            {countSport}</div>
-            <button onClick={incrementCountSport} className="add">+</button>
+            <button onClick={decrementCountSport} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Sport} alt="Sport" />
+              {countSport}
+            </div>
+            <button onClick={incrementCountSport} className="add">
+              +
+            </button>
           </div>
           <div className="themeNeuf theme">
-            <button onClick={decrementCountDivers} className="minus">-</button>
-            <div className="themeAndCount"><img src={Divers} alt="Divers" />
-            {countDivers}</div>
-            <button onClick={incrementCountDivers} className="add">+</button>
+            <button onClick={decrementCountDivers} className="minus">
+              -
+            </button>
+            <div className="themeAndCount">
+              <img src={Divers} alt="Divers" />
+              {countDivers}
+            </div>
+            <button onClick={incrementCountDivers} className="add">
+              +
+            </button>
           </div>
-<div className="panier">{panier()}</div>
+          <div className="panier">{panier()}</div>
+          <button className="confirmer">Donner</button>
         </div>
 
         <Footer />
