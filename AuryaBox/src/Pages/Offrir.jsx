@@ -11,6 +11,9 @@ import Cosmétique from "../Pictures/savon.png";
 import Sport from "../Pictures/sports.png";
 import Vetement from "../Pictures/t-shirt.png";
 import Divers from "../Pictures/divers.png";
+import { Modal } from "react-responsive-modal";
+import PopupDonneur from "./PopupDonneur";
+import "react-responsive-modal/styles.css";
 import "./Offrir.css";
 
 function Offrir() {
@@ -50,6 +53,10 @@ function Offrir() {
   setCosmetic(countCosmétique);
   setSport(countSport);
   setDivers(countDivers);
+
+  const [display1, setDisplay1] = useState(false);
+  const onOpenModal = () => setDisplay1(true);
+  const onCloseModal = () => setDisplay1(false);
 
   useEffect(() => {
     const prevCount = prevCountRef.current;
@@ -351,7 +358,10 @@ function Offrir() {
             </button>
           </div>
           <div className="panier">{panier()}</div>
-          <button className="confirmer">Donner</button>
+          <button className="confirmer" onClick={onOpenModal}>Donner </button>
+          <Modal open={display1} onClose={onCloseModal} center  >
+        <PopupDonneur />
+      </Modal>
         </div>
 
         <Footer />
