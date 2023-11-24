@@ -13,11 +13,14 @@ function Home() {
           <div className="inputListeNoel2">
             <p className="Textecss">
               Recevoir : <br></br>
-              <br></br> C'est Noel laissez vous guidez par le hasard qui fera
-              bien les choses, trouvez la boite qui vous plais cliquez dessus
-              vous recevrez une notificartion pour la reception en point relais,
-              click&collect, ou même dans votre association préferez retirez
-              votre boite magic et profitez-en sans modération.
+              <br></br> C'est Noël, laissez vous guider par le hasard qui fera
+              bien les choses. <br />
+              Trouvez la boîte qui vous plaît, cliquez dessus,
+              vous recevrez une notification pour la reception en point relais
+              click&collect, ou même dans votre association préferée. <br />
+              Retirez votre boîte magique et profitez-en sans modération.
+              <br /><br /><br /> 
+              Profitez de vos cadeaux et Joyeux Noël.
             </p>
           </div>
           <div id="bouttonLaFabrique">
@@ -34,14 +37,14 @@ function Home() {
           <div className="inputListeNoel1">
             <p className="Textecss">
               Offrir : <br></br>
-              <br></br>Remplir une boite type boite a chaussures 5 objets max
-              1kilos par objets le principe c'est qu'il faut que sa rentre
-              dedans, le nombre les gouts et les couleurs sont a votre
-              convenance l'important et d'offrir et donner un sourir ce qui n'a
-              pas de prix. il faut que les produits sois en très bonne état ou
-              neuf et fonctionnels, nous vous proposont ici quelques thème afin
-              de vous guidez dans votre don. vous pouvez mélangez biensur
-              plusieurs thème.
+              <br></br>Remplir une boîte au format boîte à chaussures, contenant 5 objets maximum, 
+              et pesant pas plus d'1 kilo par objet. <br />Le principe, c'est qu'il faut que ça rentre
+              dedans. <br /> Le nombre de boîte, leur couleurs et leur rubans sont à votre
+              convenance. <br /> L'important est d'offrir et de donner le sourire. Cela n'a
+              pas de prix. Il faut que les produits soient en très bon état et
+              fonctionnels ou neufs. <br /> Nous vous proposont ici quelques thèmes afin
+              de vous guider dans votre don. Vous pouvez bien sûr mélanger 
+              plusieurs thèmes.
             </p>
           </div>
           <div id="bouttonLesCadeaux">
