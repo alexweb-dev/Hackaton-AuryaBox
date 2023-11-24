@@ -2,8 +2,7 @@ import { useNavigate } from "react-router-dom";
 import NavBar from "../Components/NavBar.jsx";
 import Footer from "../Components/Footer.jsx";
 import "./home.css";
-import NavBar from "../Components/NavBar";
-import Footer from "../Components/Footer";
+
 
 function Home() {
   const navigate = useNavigate();
