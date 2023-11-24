@@ -40,7 +40,7 @@ function Home() {
               <br></br>Remplir une boîte au format boîte à chaussures, contenant 5 objets maximum, 
               et pesant pas plus d'1 kilo par objet. <br />Le principe, c'est qu'il faut que ça rentre
               dedans. <br /> Le nombre de boîte, leur couleurs et leur rubans sont à votre
-              convenance. <br /> L'important est d'offrir et de donner le sourir. Cela n'a
+              convenance. <br /> L'important est d'offrir et de donner le sourire. Cela n'a
               pas de prix. Il faut que les produits soient en très bon état et
               fonctionnels ou neufs. <br /> Nous vous proposont ici quelques thèmes afin
               de vous guider dans votre don. Vous pouvez bien sûr mélanger 
