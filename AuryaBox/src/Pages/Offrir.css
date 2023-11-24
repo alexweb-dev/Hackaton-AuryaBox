@@ -1,8 +1,25 @@
+.pageOffrir{
+    background-size: cover;
+    height: 60rem;
+    width: 100%;
+    background-image: url(../Pictures/backgroundOffrir.jpg);
+}
 .pageOffrirTitre {
   font-size: 2rem;
-  font-family: ChristmasStar;
+  font-family: ChristmasHarrigton;
+  height: 8rem;
+  color: white;
+  background-color: #04aa6d;
 }
-
+.panier{
+  margin-top: 1.5rem;
+  text-align: center;
+  background-color:#04aa6d;
+  width: 30%;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid #000000;
+}
 .pageOffrirTitre {
   display: flex;
   justify-content: center;
@@ -10,19 +27,23 @@
 .allBoxes {
   display: flex;
   flex-direction: row;
-
+justify-content: center;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 .theme {
   display: flex;
   flex-direction: row;
   align-items: center;
+
   justify-content: space-between;
-  width: 30%;
+  width: 15%;
   height: 12.5rem;
   background-color: aquamarine;
-  margin: 1%;
+  margin: 1% 6% 1% 6%;
+  border: 1px solid #000000;
   border-radius: 10%;
+  position: relative;
 }
 .theme button {
   display: inline-block;
@@ -37,6 +58,13 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+
+
+}
+.theme .add button{
+    position: absolute;
+    right : -50px;
+
 }
 .theme .button:hover {background-color: #3e8e41}
 

@@ -50,15 +50,6 @@ function Offrir() {
   setCosmetic(countCosmétique);
   setSport(countSport);
   setDivers(countDivers);
-  // const incrementCount = () => {
-  //   setCount(count + 1);
-  // };
-
-  // const decrementCount = () => {
-  //   if (count > 0) {
-  //     setCount(count - 1);
-  //   }
-  // };
 
   useEffect(() => {
     const prevCount = prevCountRef.current;
@@ -206,28 +197,28 @@ function Offrir() {
       return (
         <p>
           Vous avez donné : {count} Article, pour un total de {nbBoite} Boîte.
-          Merci Beaucoup !
+          <br />Merci Beaucoup !
         </p>
       );
     } else if ((count === 1 || count === 0) && nbBoite >= 2) {
       return (
         <p>
           Vous avez donné : {count} Article, pour un total de {nbBoite} Boîtes.
-          Merci Beaucoup !
+          <br />Merci Beaucoup !
         </p>
       );
     } else if (count >= 2 && nbBoite === 1) {
       return (
         <p>
           Vous avez donné : {count} Articles, pour un total de {nbBoite} Boîte.
-          Merci Beaucoup !
+          <br />Merci Beaucoup !
         </p>
       );
     } else if (count >= 2 && nbBoite >= 2) {
       return (
         <p>
           Vous avez donné : {count} Articles, pour un total de {nbBoite} Boîtes.
-          Merci Beaucoup !
+          <br />Merci Beaucoup !
         </p>
       );
     }
@@ -238,56 +229,56 @@ function Offrir() {
       <NavBar />
       <div className="pageOffrir">
         <div className="pageOffrirTitre">
-          <h1>Offrir</h1>
+          <h1>Que Souhaites Tu Offrir ?</h1>
         </div>
-        <div className="panier">{panier()}</div>
         <div className="allBoxes">
           <div className="themeUn theme">
-            <button onClick={decrementCountVetement}>-</button>
+            <button onClick={decrementCountVetement} className="minus">-</button>
             <img src={Vetement} alt="Vêtements" />
-            <button onClick={incrementCountVetement}>+</button>
+            <button onClick={incrementCountVetement} className="add">+</button>
           </div>
 
           <div className="themeDeux theme">
-            <button onClick={decrementCountJouet}>-</button>
+            <button onClick={decrementCountJouet} className="minus">-</button>
             <img src={Jouet} alt="Jouet" />
-            <button onClick={incrementCountJouet}>+</button>
+            <button onClick={incrementCountJouet} className="add">+</button>
           </div>
           <div className="themeTrois theme">
-            <button onClick={decrementCountMultimedia}>-</button>
+            <button onClick={decrementCountMultimedia} className="minus">-</button>
             <img src={Multimedia} alt="Multimedia" />
-            <button onClick={incrementCountMultimedia}>+</button>
+            <button onClick={incrementCountMultimedia} className="add">+</button>
           </div>
           <div className="themeQuatre theme">
-            <button onClick={decrementCountLivre}>-</button>
+            <button onClick={decrementCountLivre} className="minus">-</button>
             <img src={Livre} alt="Livre" />
-            <button onClick={incrementCountLivre}>+</button>
+            <button onClick={incrementCountLivre} className="add">+</button>
           </div>
           <div className="themeCinq theme">
-            <button onClick={decrementCountNourriture}>-</button>
+            <button onClick={decrementCountNourriture} className="minus">-</button>
             <img src={Nourriture} alt="Nourriture" />
-            <button onClick={incrementCountNourriture}>+</button>
+            <button onClick={incrementCountNourriture} className="add">+</button>
           </div>
           <div className="themeSix theme">
-            <button onClick={decrementCountVoyage}>-</button>
+            <button onClick={decrementCountVoyage} className="minus">-</button>
             <img src={Voyage} alt="Voyage" />
-            <button onClick={incrementCountVoyage}>+</button>
+            <button onClick={incrementCountVoyage} className="add">+</button>
           </div>
           <div className="themeSept theme">
-            <button onClick={decrementCountCosmétique}>-</button>
+            <button onClick={decrementCountCosmétique} className="minus">-</button>
             <img src={Cosmétique} alt="Cosmétique" />
-            <button onClick={incrementCountCosmétique}>+</button>
+            <button onClick={incrementCountCosmétique} className="add">+</button>
           </div>
           <div className="themeHuit theme">
-            <button onClick={decrementCountSport}>-</button>
+            <button onClick={decrementCountSport} className="minus">-</button>
             <img src={Sport} alt="Sport" />
-            <button onClick={incrementCountSport}>+</button>
+            <button onClick={incrementCountSport} className="add">+</button>
           </div>
           <div className="themeNeuf theme">
-            <button onClick={decrementCountDivers}>-</button>
+            <button onClick={decrementCountDivers} className="minus">-</button>
             <img src={Divers} alt="Divers" />
-            <button onClick={incrementCountDivers}>+</button>
+            <button onClick={incrementCountDivers} className="add">+</button>
           </div>
+<div className="panier">{panier()}</div>
         </div>
 
         <Footer />
