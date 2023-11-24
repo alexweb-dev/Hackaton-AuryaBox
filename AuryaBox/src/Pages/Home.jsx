@@ -13,7 +13,7 @@ function Home() {
           <div className="inputListeNoel1 inputListNoel">
             <p className="Textecss">
               Offrir : <br></br>
-              <br></br>Remplir une boite type boite a chaussures ( 5 objets max
+              <br></br>Remplir une boite type boite a chaussures 5 objets max
               1kilos par objets) le principe c'est qu'il faut que sa rentre
               dedans, le nombre les gouts et les couleurs sont a votre
               convenance l'important et d'offrir et donner un sourir ce qui n'a
@@ -23,13 +23,15 @@ function Home() {
               plusieurs thème.
             </p>
           </div>
-          <button
-            className="bouttonHome"
-            type="button"
-            onClick={() => navigate("/Receveur")}
-          >
-            Les cadeaux
-          </button>
+          <div id="bouttonLesCadeaux">
+            <button
+              className="bouttonHome"
+              type="button"
+              onClick={() => navigate("/Receveur")}
+            >
+              Les cadeaux
+            </button>
+          </div>
         </div>
         <div className="itemColonne">
           <div className="inputListeNoel2 inputListNoel">
@@ -42,13 +44,15 @@ function Home() {
               votre boite magic et profitez-en sans modération.
             </p>
           </div>
-          <button
-            className="bouttonHome"
-            type="button"
-            onClick={() => navigate("/Offrir")}
-          >
-            La Fabrique
-          </button>
+          <div id="bouttonLaFabrique">
+            <button
+              className="bouttonHome"
+              type="button"
+              onClick={() => navigate("/Offrir")}
+            >
+              La Fabrique
+            </button>
+          </div>
         </div>
       </section>
       <Footer />
