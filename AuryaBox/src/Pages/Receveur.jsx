@@ -9,6 +9,9 @@ import c6 from "../Pictures/c6.png";
 import c7 from "../Pictures/c7.png";
 import precedent from "../Pictures/precedent.png";
 import suivant from "../Pictures/suivant.png";
+import Footer from "../Components/Footer";
+import NavBar from "../Components/NavBar";
+
 
 function Receveur() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -24,7 +27,8 @@ function Receveur() {
     );
   };
 
-  return (
+  return (<>
+    <NavBar />
     <div className="swapp">
       <div className="carousel">
         <button className="buttonreceveurprecedent" onClick={prevSlide}>
@@ -43,6 +47,8 @@ function Receveur() {
         </button>
       </div>
     </div>
+    <Footer />
+    </>
   );
 }
 
