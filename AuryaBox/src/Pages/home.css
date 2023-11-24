@@ -36,14 +36,15 @@
   background-color: white;
   border-radius: 10px 10px;
   height: 40px;
+  width: 25%;
   padding-top: 2px;
   font-family: "Encode Sans Expanded";
   font-size: large;
   font-weight: bold;
-  padding-left: 22px;
   border-width: 5px;
   border-color: black;
 }
+
 #bouttonLesCadeaux {
   background-image: url(../Pictures/mur-noel-hiver-confortable-neige-pommes-pin-decoratives-mur-colore-flou.jpg);
   background-size: cover;
@@ -66,6 +67,7 @@
   height: 150px;
   text-align: center;
 }
+
 .itemColonne {
   display: flex;
   flex-direction: column;
