@@ -1,0 +1,121 @@
+.pageOffrir {
+  background-size: cover;
+  height: 60rem;
+  width: 100%;
+  background-image: url(../Pictures/backgroundOffrir.jpg);
+}
+.pageOffrirTitre {
+  font-size: 2rem;
+  font-family: ChristmasHarrigton;
+  height: 8rem;
+  color: white;
+  background-color: #04aa6d;
+}
+.panier {
+  margin-top: 1.5rem;
+  text-align: center;
+  background-color: #04aa6d;
+  width: 30%;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid #000000;
+  font-size: 19.5px;
+}
+.count,
+.nbBoite {
+  color: yellow;
+}
+
+.pageOffrirTitre {
+  display: flex;
+  justify-content: center;
+}
+.allBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.theme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+  width: 15%;
+  height: 12.5rem;
+  /* background-color: #e5c185; */
+  margin: 1% 6% 0.5% 6%;
+  /* border: 1px solid #000000; */
+  border-radius: 10%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../Pictures/smallparchemin.png);
+}
+.theme button {
+  display: inline-block;
+  padding: 2rem 1.75rem;
+  font-size: 24px;
+  line-height: 5px;
+  height: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.theme .add {
+  transform: translateX(20px);
+}
+.theme .minus {
+  transform: translateX(-30px);
+}
+.theme .button:hover {
+  background-color: #3e8e41;
+}
+
+.theme .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.theme img {
+  width: 100px;
+  height: 100px;
+}
+.themeAndCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.panier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirmer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #04aa6d;
+  width: 10%;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid #000000;
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.pageOffrir button:hover{
+  background-color: aquamarine;
+}
