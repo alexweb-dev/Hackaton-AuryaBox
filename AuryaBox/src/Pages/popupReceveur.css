@@ -1,49 +1,75 @@
-@media screen and (max-width: 850px) {
-    .formContainer {
-      width: 100%;
-    }
+@font-face {
+  font-family: MountainofChristmas;
+  src: url(MountainsofChristmas-Bold.ttf);
+}
+
+.imageCadeau {
+  top: 120%;
+  left: 10%;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+}
+
+.textLoginReceveur {
+  position: relative;
+  bottom: 37rem;
+  text-align: center;
+  font-size: 27px;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 15rem;
+  padding-left: 6rem;
+}
+
+.boxReceveur {
+  height: 18rem;
+  position: relative;
+  bottom: 35rem;
+  right: 4rem;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.Snow {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: darkblue;
+  font-family: MountainofChristmas;
+  position: relative;
+  height: 30rem;
+  width: 50rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.Snowflake {
+  display: inline-block;
+  width: 0.1%;
+  color: #fffafa;
+  opacity: 0;
+  font-size: 120px;
+  margin: 0;
+  padding: 0;
+  animation: fall 6s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 0;
   }
-  .formContainer {
-    position: relative;
-    height: 16rem;
-    width: 30rem;
-    border: 1px solid rgba(0, 0, 0, 0.350);
-    border-radius: 30px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: #f1f1f1;
-    gap: 10px;
-  
-    
+  3% {
+    opacity: 0.9;
   }
-  .textLogin {
-    text-align: center;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
+
+  90% {
+    opacity: 0.9;
   }
-  .formContainerInput {
-    padding: 10px;
-    width: 70%;
-    border: 2px solid rgba(0, 0, 0, 0.350);
-    border-radius: 10px;
-    background: white;
-    color: black;
-    outline: none;
+  100% {
+    transform: translate(0, 97vh);
+    opacity: 0;
   }
-  .formContainer button {
-    width: 30%;
-    background-color: #24649c;
-  }
-  
-  .formContainer button:hover {
-    background-color: #11416b;
-    transition: all 0.2s ease-in-out;
-  }
-  label {
-    color: black;
-  }
-  
+}
